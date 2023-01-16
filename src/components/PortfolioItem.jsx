@@ -2,18 +2,22 @@ import React from 'react';
 
 function PortfolioItem({ title, imgUrl, stack, link }) {
   return (
-    <div class='max-w-sm bg-white border border-gray-200 rounded-lg shadow-md'>
-      <img src={imgUrl} alt='Portfolio Item' class='rounded-t-lg' />
-      <div>
-        <h3 class='mb-2 text-2xl font-bold tracking-tight text-gray-900'>
+    <div class='border-2 bg-white border-gray-900 rounded-lg shadow-md m-1'>
+      <img src={imgUrl} alt='Portfolio Item' class='' />
+      <div className='w-full p-3'>
+        <h3 class='mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center'>
           {title}
         </h3>
-        <p class='mb-3 font-normal dark:text-gray-400'>
+        <p class='flex gap-2 text-sm lg:text-base justify-center'>
           {stack.map((item) => (
-            <span>{item}</span>
+            <span className='px-2 py-1 border-2 border-gray-900 rounded-md'>
+              {item}
+            </span>
           ))}
         </p>
-        <a href={link}>{link}</a>
+        <a href={link} className='flex justify-center py-1'>
+          {link}
+        </a>
       </div>
     </div>
   );
