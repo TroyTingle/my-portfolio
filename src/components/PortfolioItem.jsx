@@ -3,7 +3,11 @@ import React from 'react';
 function PortfolioItem({ title, imgUrl, stack, link }) {
   return (
     <div class='border-2 bg-white border-gray-900 rounded-lg shadow-md m-1'>
-      <img src={imgUrl} alt='Portfolio Item' />
+      <img
+        src={imgUrl}
+        alt='Portfolio Item'
+        class='h-[400px] w-[400px] rounded-md'
+      />
       <div className='grid w-full p-3 justify-center'>
         <h3 class='mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center'>
           {title}

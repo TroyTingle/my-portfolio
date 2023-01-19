@@ -1,8 +1,8 @@
 export default [
   {
-    title: 'Title',
-    imgUrl: 'assets/GrayPlaceholder.jpg',
-    stack: ['Stack 1', 'Stack 2', 'Stack 3'],
+    title: 'My Portfolio Website',
+    imgUrl: 'assets/Portfolio_Site.jpg',
+    stack: ['React/Vite', 'JavaScript', 'TailwindCSS'],
     link: 'http://www.google.co.uk',
   },
   {
