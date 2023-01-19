@@ -1,12 +1,12 @@
-import React from "react";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Intro from "./components/intro";
-import Portfolio from "./components/portfolio";
+import React from 'react';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Intro from './components/Intro';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Intro />
       <Portfolio />
       <Contact />
@@ -14,5 +14,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
