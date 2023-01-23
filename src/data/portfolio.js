@@ -3,7 +3,7 @@ export default [
     title: 'My Portfolio Website',
     imgUrl: 'assets/Portfolio_Site.jpg',
     stack: ['React/Vite', 'JavaScript', 'TailwindCSS'],
-    link: 'http://www.google.co.uk',
+    link: 'https://github.com/TroyTingle/my-portfolio',
   },
   {
     title: 'Title1',
