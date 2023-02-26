@@ -7,7 +7,7 @@ export default [
   },
   {
     title: 'Disney+ Clone',
-    imgUrl: 'assets/Disney+ Screenshot.png',
+    imgUrl: 'assets/DisneyPlusScreenshot.png',
     stack: ['NextJS', 'APIs', 'TailwindCSS'],
     link: 'http://github.com/TroyTingle/disney-plus-clone',
   },
