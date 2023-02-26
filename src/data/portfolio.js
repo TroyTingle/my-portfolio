@@ -6,10 +6,10 @@ export default [
     link: 'https://github.com/TroyTingle/my-portfolio',
   },
   {
-    title: 'Title1',
-    imgUrl: 'assets/GrayPlaceholder.jpg',
-    stack: ['Stack 1', 'Stack 2', 'Stack 3'],
-    link: 'http://link',
+    title: 'Disney+ Clone',
+    imgUrl: 'assets/Disney+ Screenshot.png',
+    stack: ['NextJS', 'APIs', 'TailwindCSS'],
+    link: 'http://github.com/TroyTingle/disney-plus-clone',
   },
   {
     title: 'Title2',
