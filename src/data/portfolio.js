@@ -12,9 +12,9 @@ export default [
     link: 'http://github.com/TroyTingle/disney-plus-clone',
   },
   {
-    title: 'Title2',
+    title: 'Twitter Clone',
     imgUrl: 'assets/GrayPlaceholder.jpg',
-    stack: ['Stack 1', 'Stack 2', 'Stack 3'],
-    link: 'http://link',
+    stack: ['TypeScript', 'React', 'Custom API Server'],
+    link: 'https://github.com/TroyTingle/twitter-clone-frontend',
   },
 ];

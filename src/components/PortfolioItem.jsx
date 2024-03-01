@@ -22,6 +22,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
         <a
           href={link}
           class='px-2 py-1 m-1 border-2 border-gray-300 rounded-md text-center hover:bg-green-500 hover:border-green-600'
+          target='_blank'
         >
           Go to Project
         </a>
